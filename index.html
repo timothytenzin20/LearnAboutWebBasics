@@ -5,41 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 1. Name your web page -->
     <title></title>
-
+    
     <!-- 7. Import Stylesheet -->
-
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
     <!-- 2. Name and Info -->
     <header>
-
+        <h1>Your Name Here</h1>
+        <h2>Student at UofG</h2>
+        <p>Age: Your Age</p>
+        <p>Location: Your Location</p>
+        <p>Email: Your Email</p>
     </header>
-
+    
     <!-- 3. About Me -->
-    <section>
-        <!-- 3a. The About Me Section -->
-
-
-        <!-- 4. Add a Picture -->
-        <div>
-
+    <section class="about" style="display: flex;">
+        <div class="aboutme">
+            <h2>About Me</h2>
+            <p>Gopher says MEOW.</p>
         </div>
+
+    <!-- My Picture -->
+    <div style="margin-right: 100px; margin-left: 50px; text-align: center;">
+        <img src="images/photo.png" alt="ITS ME!" style="width: 200px;" class="mypicture">
+        <p>Go Gopher</p>
+    </div>
     </section>
 
-    <!-- 5. Projects -->
-    <h2 class="projects">Projects:</h2>
-    <section class="projects">
-        <div>
-            <!-- 5a. Add project title -->
-            <h4></h4>
-
-            <!-- 5b. Add project description -->
-
-
-        </div>
-    </section>
+  <!-- Projects -->
+  <h2 class="projects">Projects:</h2>
+  <section class="projects">
+      <div>
+          <h4><a href="https://www.youtube.com">Portfolio Project</a></h4>
+          <ul>
+              <li>Talks about me</li>
+              <li>Explains my projects</li>
+          </ul>
+      </div>
+      <div>
+          <h4><a href="https://www.youtube.com">Calculator</a></h4>
+          <ul>
+              <li>Does math</li>
+              <li>Sometimes works</li>
+          </ul>
+      </div>
+  </section>
 
     <!-- 6. Find Me in Footer -->
     <footer class="findme">
