@@ -1,0 +1,110 @@
+body
+{
+    font-family: Arial, sans-serif;
+}
+
+header
+{
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    filter: drop-shadow(0 0 0.75rem black);
+    margin-top: 50px;
+}
+
+section.about
+{
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #4285F4;
+    filter: drop-shadow(0 0 0.75rem black);
+    display: flex;
+}
+
+section.about p
+{
+    font-weight: bold;
+}
+
+div.aboutme
+{
+    margin: 0 auto;
+    width: 50%;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+}
+
+.mypicture
+{
+    border: solid #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 100px;
+}
+
+h2.projects
+{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 32px;
+}
+
+section.projects
+{
+    padding: 15px;
+    padding-top: 0px;
+    display: flex;
+}
+
+section.projects div
+{
+    border: solid;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 15px;
+}
+
+footer.findme
+{
+    text-align: center;
+    padding: 25px;
+}
+
+button
+{
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #34a853;
+}
+
+nav.navbar
+{
+    background-color: #121212;
+    color: white;
+    padding: 25px;
+    filter: drop-shadow(0 0 0.75rem black);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav.navbar a
+{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav.navbar a:hover
+{
+    background-color: #333333;
+    font-size: 20px;
+    transition: 0.2s;
+}
